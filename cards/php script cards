@@ -58,4 +58,7 @@ $cardNumber = $argv[1];
 $result = Validator::validate($cardNumber);
 echo $result;
 
-// php try2.php 4750657776370372 
+// php try2.php 4750657776370372 - валидная, VISA
+//php try2.php  4023 9019 5678 9014 - валидная, VISA
+// php try2.php  5569191777864116 - валидная, MasterCard
+// php try2.php 725163728819929 - невалидная
