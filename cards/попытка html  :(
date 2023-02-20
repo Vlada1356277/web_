@@ -4,7 +4,7 @@
     <title>Button and Text Input</title>
 </head>
 <body>
-    <form method="post" action="card.php">
+    <form method="post" action="try2.php">
         <label for="input">Enter text:</label>
         <input type="text" id="input" name="input"><br><br>
         <button type="submit">Submit</button>
