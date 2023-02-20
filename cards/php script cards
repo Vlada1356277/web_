@@ -58,4 +58,4 @@ $cardNumber = $argv[1];
 $result = Validator::validate($cardNumber);
 echo $result;
 
-// php try2.php 4111111111111111
+// php try2.php 4750657776370372 
