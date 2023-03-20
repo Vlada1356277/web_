@@ -14,7 +14,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 * @Route("/api/toys")
 */
 
-// описываем контроллер
+// описываем контроллерs
 class ToysCrudController extends AbstractController
 {
     /**
